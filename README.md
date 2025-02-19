@@ -65,18 +65,20 @@ Runs on http://localhost:3000
 
 Login & store token & userId in localStorage.
 Use Bearer Token in all requests.
-2️⃣ Job Management
 
+2️⃣ Job Management
+```sh
 GET /jobs → Fetch jobs with search & filters.
 POST /jobs → Create a job (with userId).
 PUT /jobs/:id → Update a job (with userId).
 DELETE /jobs/:id → Remove a job (with userId).
-
+ ```
 
 📌 Best Practices Followed
+```sh
 ✔ TypeScript for strong typing
 ✔ MVC pattern (Separation of concerns)
 ✔ Reusable components (JobCard, JobList)
 ✔ State management with React Context API
 ✔ Error handling & loading states
-
+ ```
